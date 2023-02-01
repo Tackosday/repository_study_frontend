@@ -1,14 +1,16 @@
 
-body{
+.pB{
     background-image: url(images/fondo-bienvenido-grande.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-
+    padding:370px 10px;
 }
 
 .bottom{
-    padding:0px;
-    padding-top:5px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-right:10px; 
     margin:auto;
     width:250px;
     height:25px;
@@ -30,3 +32,7 @@ li a{
     color:white;
 }
 
+.titulo{
+color:white;
+  
+}
