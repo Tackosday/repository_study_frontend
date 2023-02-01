@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(images/fondo-bienvenido-grande.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.bottom{
+    padding:0px;
+    padding-top:5px;
+    margin:auto;
+    width:250px;
+    height:25px;
+    text-align:center;    
+  
+}
+
+.main-links{
+    display:flex;
+    gap:1rem;
+    list-style:none;
+    float:right;
+    
+}
+
+li a{
+    margin:5px;
+    text-decoration:none;
+    color:white;
+}
+
