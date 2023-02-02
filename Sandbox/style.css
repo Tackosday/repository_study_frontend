@@ -36,8 +36,8 @@ color:white;
 }
 
 .image{
-    margin:5px;
-    border-radius:5px
+    padding:5px 5px;
+    border-radius:5px;
 }
 
 .mover{
@@ -54,8 +54,15 @@ float:right;
 
 .skiner{
     color:white;
+    text-decoration:none;
+    list-style:none;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .contenedores{
-    
+    width:200px;
+    height:100px;
+    margin-left:100px;
+    margin-right:100px    
 }
