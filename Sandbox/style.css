@@ -95,6 +95,7 @@ float:right;
 
 
 
+
 .imageCont{
     display:flex; 
     flex-wrap: wrap; 
@@ -119,8 +120,9 @@ width:250px;
 
 .nav{
     display:block;
-    padding:10px 15px
-    color:#fff;
+    color:white;
+    display:block;
+    width:121.21px
     
 }
 
@@ -130,6 +132,8 @@ width:250px;
     padding:10px 15px;
     display:block;
     color:white;
+    margin:0px;
+    border-radius:10px;
 
 }
 
@@ -153,7 +157,27 @@ width:250px;
     .bot{
         display:flex;
     }
+ 
+}
+
+@media (min-width:900px) {
     .nav{
-        display:block;
+        display:none;
     }
 }
+
+.nav li {
+    display:none;
+}
+
+.nav:hover > li {
+    display:block;
+
+
+}
+
+
+.header > div {
+    justify-content: end;
+}
+
