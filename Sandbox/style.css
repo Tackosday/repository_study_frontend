@@ -199,7 +199,7 @@ width:250px;
     display:none;
 }
 
-@media (max-width:682px){
+@media (max-width:759px){
     .Ftitle {
         display:none;
     }
@@ -208,3 +208,10 @@ width:250px;
         display:inline;
     }
 }
+
+.flexcontainer {
+ display:flex;
+ justify-content: center;
+ transform: initial;
+}
+
