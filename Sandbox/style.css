@@ -181,3 +181,30 @@ width:250px;
     justify-content: end;
 }
 
+.Ftitle {
+    text-align:center; 
+    font-size:50px; 
+    line-height:0px; 
+    color:white;
+    padding-bottom:70px;
+    justify-content: center; 
+}
+
+.Stitle {
+    text-align:center; 
+    font-size:50px; 
+    line-height:0px; 
+    color:white;
+    justify-content: center; 
+    display:none;
+}
+
+@media (max-width:682px){
+    .Ftitle {
+        display:none;
+    }
+
+    .Stitle {
+        display:inline;
+    }
+}
