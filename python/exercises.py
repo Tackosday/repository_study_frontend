@@ -1,8 +1,14 @@
-# 5. Enumere 5 tipos de datos en Python y suministre un valor de
-# ejemplo de cada uno.
+# 6. En sus propias palabras, qué son las funciones
+# preconstruidas y proporcione 2 ejemplos.
 print(" ")
-print("int => numero entero => 10")
-print("long => numero entero largo => 10216546684324651564")
-print("float => numero decimal => 10.123854")
-print("bool => booleano => true")
-print("str => cadena de caracteres => 'cadena' ")
+print("son operaciones hechas con antelacion para poder realizar micro tareas dentro del programa")
+print(" ")
+print("ejemplo 1")
+print("range(6)")
+ran=range(6)
+print(list(ran))
+print(" ")
+print("ejemplo 2")
+print("print(hola)")
+print("hola")
+print(" ")
