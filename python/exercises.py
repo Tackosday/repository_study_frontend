@@ -1,16 +1,8 @@
-# 4. Que son las expresiones regulares en Python?
+# 5. Enumere 5 tipos de datos en Python y suministre un valor de
+# ejemplo de cada uno.
 print(" ")
-print("son esxpreciones que permiten ir creando patrones para generer un micro programa que permita dividir segun las instruciones")
-import re
-print(" ")
-cadena="i dont like tomato"
-print(f"texto => {cadena}")
-print(" ")
-buscando="tea"
-print(f"buscar={buscando}")
-print(" ")
-if re.search(buscando,cadena) is not None:
-    print("encontrado")
-
-else:
-    print("no encontrado")
+print("int => numero entero => 10")
+print("long => numero entero largo => 10216546684324651564")
+print("float => numero decimal => 10.123854")
+print("bool => booleano => true")
+print("str => cadena de caracteres => 'cadena' ")
