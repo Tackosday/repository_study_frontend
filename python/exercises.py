@@ -1,20 +1,15 @@
-# 9.Construya un algoritmo en Python, que permita ingresar la
-# información de un empleado e imprima el nombre, los
-# apellidos y la antigüedad. Los datos que se deben solicitar
-# son los siguientes:
-# *Nombre * Teléfono *Año de ingreso a la empresa
-# *Apellidos *Edad.
-    
-print(" ")
-nom1=input("cual es tu primer nombre:\t")
-nom2=input("cual es tu primer nombre:\t")
-ape1=input("cual es tu primer apellido:\t")
-ape2=input("cual es tu primer apellido:\t")
-cel=input("cual es tu telefono:\t")
-a_ing=int(input("cuando entraste a esta empresa:\t"))
-edad=input("cual es tu edad:\t")
+# 10. En su casa le solicitan que realice un algoritmo en Python,
+# que permita calcular el valor a pagar por concepto de
+# energía eléctrica. Los datos que se conocen son los
+# siguientes:
+# - Mes de consumo - Valor kw
+# -Total kw consumido en el mes - estrato
 
-a_act=2023
-print("NOMBRE: "+nom1+" "+nom2+" "+ape1+" "+ape2)
-print(f"TIEMPO EN ESTA EMPRESA:\t{a_act-a_ing} años")
 print("")
+print("YO CALCULAR TU RECIBO!! UGA UGA")
+mes=input("QUE MES SER HOY??:\t")
+kw=int(input("CUANTO VALER KILOWATT??:\t"))
+tim=int(input("CUANTO GASTAR EN VIENDO CAJA BRILLANTE??:\t"))
+estra=int(input("QUE ESTRATO SER TU??:\t"))
+
+print(f"TU GASTAR EN {mes}:\t${tim*kw*estra}")
