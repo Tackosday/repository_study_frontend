@@ -1,0 +1,95 @@
+
+.bottom{
+    padding-left:10px;
+    padding-bottom:30px;
+    padding-top:10px;
+    padding-right:10px; 
+    width:150px;
+    height:0px;
+    text-align:center;  
+    background-color:#ff702a;
+    font-size:17px
+}
+
+.header{
+    background-color:#1e1d2b;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    padding-bottom:10%;
+}
+
+.letrap1{
+    padding-top:10%;
+    padding-left:8%;
+    width:50%;
+    font-size:180%
+}
+
+.letrap2{
+    padding-top:none;
+    padding-right:5%;
+    padding-left:5%;
+    width:50%;
+    font-size:180%
+}
+
+.seconpart{
+    background-color:#1e1d2b;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    padding-bottom:10%;
+}
+
+
+.tercepart{
+    background-color:#1e1d2b;
+    color:white;
+}
+
+.reor{
+    display:flex; 
+    flex-wrap: wrap; 
+    justify-content:center; 
+    align-items: center;
+    margin-bottom: 230px; 
+    margin-top:100px;
+    margin-left: 150px;
+    margin-right: 150PX;
+}
+
+.card{
+    color:black;
+    background-color:#ffefe8;
+    width:270px;
+    border-radius:10px;
+    padding-bottom:2px;
+    margin:5px;
+    border-radius: 10px;
+}
+
+.cua{
+    background-color:#ffefe8;
+    border-radius:10px; 
+    width:70%;
+    color:black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon{
+    width:30px
+}
+
+.skiner{
+    font-size:30px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+
+}
+
