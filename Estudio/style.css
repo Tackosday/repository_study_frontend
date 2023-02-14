@@ -1,0 +1,17 @@
+body{
+    background-image: url(recursos/fondo-papel-grunge.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.blocks{
+    background-color: white;
+    border-style:double;
+    display:inline-block;
+}
+
+.title{
+    font-size:100%;
+    top:0px
+}
