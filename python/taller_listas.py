@@ -21,14 +21,47 @@ print("2.5\tBUSCAR CAMPER EN LISTA DE SPUTNIK\n")
 resp=str(input("Digite opcion:\n\t"))
 
 
-Artemis=[]
+artemis=[
+    "JUAN DAVID ESCALANTE CASTAÑEDA\n",
+    "NICOLAS DAVID CABRERA MAMON\n",
+    "ANDRES FELIPE ZANABRIA CABRERA\n",
+    "MARIA CAMILA AMAYA RUBIO\n",
+    "SANTAMARIA RODRIGEZ GONZALEZ\n",
+    "JULIO ALBERTO ZULUAGA MARIN\n"
+]
 
-Sputnik=[]
+sputnik=[
+    "PAULA SAYED RODRIGUEZ OSPINA\n",
+    "ANGEL DANIEL MOSQUERA GUIARIN\n",
+    "MARIO MARQUECIN RULO\n",
+    "MATEO ANDRES ZULUAGA MARIN\n",
+    "HANAA SAHAB RODRIGEZ MONTERO\n",
+    "JUAN DIEGO MELENDEZ RODRIGEZ\n"
+]
 
-def listaimpresa():
-    print(Artemis)
+def listaimpresa(how):
+    print(how)
 
-def mascampers():
+def mascampers(how):
     print("ingrese el nombre del camper en mayuscula")
-    str(camper=input("quien es el camper:"))
+    camper=str(input("quien es el camper??:"))
+    how.append(f"{camper}\n")    
     
+def menoscampers(how):
+    print("ingrese el nombre del camper en mayuscula")
+    camper=str(input("quien es el camper??:"))
+    how.append(camper)   
+    
+def ordencampers(how):
+    how.sort()
+    print(how)
+    
+def buscarcamper(how):
+    print("¡porfavor no colocar valores alfanumericos!")
+    nombre=str(input("a quien buscas??:\t"))
+    
+    for i in how:
+        if nombre == i:
+            how.pop(i)
+
+                
