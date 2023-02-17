@@ -93,13 +93,6 @@ elif resp=="2.5":
          else:
             print("no esta")
 
-
-
-
-
-
-
-
 print("//////////////////////02/////////////////////////\n")
 
 # atletas han pasado a finales en salto triple en los juegos
@@ -141,9 +134,6 @@ elif gan=="3":
     if num1>15.50:
         print("gana 500 millones")
 
-
-
-
 print("//////////////////////03/////////////////////////\n")
 
 # En pocos días comienza la vuelta a España y la federación
@@ -175,94 +165,6 @@ if gan=="si":
     tfin=ttotal+700000000
 
 print(int(tfin))
-
-
-
-
-
-
-
-
-
-
-
-print("//////////////////////02/////////////////////////\n")
-
-# atletas han pasado a finales en salto triple en los juegos
-# olímpicos de 2022.
-
-# Diseñe un programa que pida por teclado los nombres de cada
-# atleta finalista y a su vez, sus marcas del salto en metros.
-
-# Informar el nombre de la atleta campeona que se quede
-# con la medalla de oro y si rompió récord, reportar el pago que
-# será de 500 millones. El récord esta en 15,50 metros.
-
-nom1=str(input("nombre de jugador:"))
-num1=float(input("marca de salto:"))
-nom2=str(input("nombre de jugador:"))
-num2=float(input("marca de salto:"))
-nom3=str(input("nombre de jugador:"))
-num3=float(input("marca de salto:"))
-
-if nom1>nom2:
-    if nom1>nom3:
-        gan="3"
-        print(f"el ganador fue {nom3}\n")
-    else:
-        gan="1"
-        print(f"el ganador fue {nom1}\n")
-elif nom2>nom3:
-    gan="2"
-    print(f"el ganador fue {nom2}\n")
-
-
-if gan=="1":
-    if num1>15.50:
-        print("gana 500 millones")
-elif gan=="2":
-    if num1>15.50:
-        print("gana 500 millones")
-elif gan=="3":
-    if num1>15.50:
-        print("gana 500 millones")
-
-
-
-
-print("//////////////////////03/////////////////////////\n")
-
-# En pocos días comienza la vuelta a España y la federación
-# colombiana de ciclismo, como incentivo ha determinado pagar
-# un valor adicional. El programa pedirá por teclado el sueldo
-# básico por kilometro recorrido, el número de kilómetros
-# recorridos durante toda la vuelta, numero de kilómetros
-# recorridos con la camiseta de líder.
-# Calcular el valor a pagar total, si se sabe que si recorre en la
-# bici más de 1800 kilómetros con la camiseta de líder, esos
-# kilómetros se consideran especiales y tendrán un recargo de
-# 25%.
-# El total de kilómetros por recorrer durante toda la vuelta serán
-# 3.277 kilómetros,el ganador de la vuelta a España recibirá 700
-# millones de pesos.
-
-suebas=int(input("sueldo Basico por kilometro")) 
-numkil=int(input("numero de kilometros")) 
-camlid=int(input("numero de kilometros con camisa de lider"))
-gan=str(input("ganaste??  si/no:")) 
-if camlid >1800:
-    total=camlid+(25*camlid/100)
-else:
-    total=camlid
-    
-ttotal=total*suebas    
-    
-if gan=="si":
-    tfin=ttotal+700000000
-
-print(int(tfin))
-
-
 
 print("//////////////////////04/////////////////////////\n")
 
@@ -283,6 +185,8 @@ babaria={
     
 }
 
+
+
 arturito={
     "camisa":180,
     "aguila":100,
@@ -296,9 +200,21 @@ primev=((babaria["aguila"])+(babaria["poker"])+(babaria["cocacola"])+(babaria["c
 seconv=((arturito["camisa"])+(arturito["aguila"])+(arturito["pantalon"])+(arturito["zapatos"])+(arturito["pasta"]))
  
 if primev > seconv:
-     print("babaria vendio mas")
+     print("babaria vendio mas\n")
 else:
-    print("arturito vendio mas")
-    
+    print("arturito vendio mas\n")
+
+
+total = max(babaria, key=babaria.get)
+print(f"{total}\n")
+
+babmax=max(babaria,key=babaria.get)
+artumax=max(arturito,key=arturito.get)
+
+if babmax > artumax:
+    print(f"el producto mas vendido fue {babmax}")
+else: 
+    print(f"el producto mas vendido fue {babmax}")
+
     
 
