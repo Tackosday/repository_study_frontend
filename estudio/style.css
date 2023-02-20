@@ -1,0 +1,95 @@
+body{
+    background-image:url(recursos/astronaut-jellyfish-space-digital-art-uhdpaper.com-4K-107.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-position: center;
+}
+
+.fondoinside{
+    background-color:rgba(16, 29, 87, 0.548);
+    padding-top:300px;
+    padding-bottom:300px;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.elementos{
+    display:block;
+    padding:10px;
+    align-items: center;
+    color:#fff;
+}
+
+.lista{
+    display:flex;
+    flex-wrap: wrap; 
+    margin-right: 40px;
+
+}
+
+h1{
+    color:#fff;
+    padding-bottom: 10px;
+
+}
+
+p{
+    color:#fff;
+}
+
+.parrafo{
+    width: 500px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.header{
+    display:flex;
+    justify-content: right;
+
+}
+
+
+.caja{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+.image{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.boton{
+    background-color: rgba(19, 62, 143, 0.589);
+    width: 200px;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    margin:5px
+}
+
+.image2{
+    width: 35px;
+    border-radius:20px;
+    display:none;
+}
+
+.desplegable{
+    display:none;
+}
+
+@media (max-width:760px) {
+    .desplegable{
+        display:block
+    }
+}
