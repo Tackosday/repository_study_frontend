@@ -79,17 +79,38 @@ p{
 }
 
 .image2{
-    width: 35px;
+    width: 33px;
     border-radius:20px;
     display:none;
+    align-self: end;
 }
 
 .desplegable{
     display:none;
+    align-items: end;
+    text-align: end;
+    justify-content: end;
 }
 
 @media (max-width:760px) {
     .desplegable{
-        display:block
+        display:block;
     }
+    .lista{
+        display:none;
+    }
+    .image2{
+        display:block;
+    }
+}
+
+.elementos2{
+    display:none;
+    padding:10px;
+    align-items: center;
+    color:#fff;
+}
+
+.desplegable:hover >li{
+    display:block;
 }
