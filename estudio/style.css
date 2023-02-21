@@ -114,3 +114,17 @@ p{
 .desplegable:hover >li{
     display:block;
 }
+
+.elementos:hover{
+    background-color:rgb(42, 114, 248);
+    border-radius: 10px;
+}
+.elementos2:hover{
+    background-color:rgb(42, 114, 248);
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color:rgb(42, 114, 248);
+    border-radius: 10px;
+}
