@@ -1,0 +1,35 @@
+.scroll{
+    overflow-y:scroll;
+    height: 400px;
+}
+.tex{
+    color:white;
+}
+.tit{
+    color:white;
+}
+.image{
+    width:99%;
+}
+.title{
+    color:white;
+    font-size:larger;
+}
+
+.center{
+    text-align: center;
+}
+
+.imagenes{
+    width: 15%;
+    border-radius: 150px;
+}
+
+.lowpart{
+    display:flex;
+    flex-wrap:wrap;
+}
+.botton{
+    background-color:blue;
+    padding: 5px 20px;
+}
