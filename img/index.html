@@ -1,93 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container-fluid bg-danger">
+    <div class="ventana"></div>
+    <div class="header"></div>
+    <div class="container-fluid ">
         <div class="row">
-            <div class="col-8 bg-primary center">
-                <h1>WARWICK</h1>
+            <div class="col-8  center">
+                <h1 class="title2">WARWICK</h1>
                 <img src="recursos\warwick-lol.gif" class="image">
             </div>
-            <div class="col-4 bg-info">
-                <h1 class="title center">LA FURIA DESATADA DE ZAUN</h1>
-               <div class="scroll center">
-                <h1 class="tit">DESCRIPCION</h1>
-                <P class="tex">Warwick es un monstruo que ronda por los callejones grises de Zaun. Víctima de agonizantes experimentos, su cuerpo está fusionado con un sistema complejo de cámaras y bombas, una maquinaria que llena sus venas con furia alquímica. Warwick emerge de las sombras y ataca a los criminales que aterrorizan las profundidades de la ciudad. Lo atrae la sangre y su aroma lo vuelve loco. Nadie que la derrame puede escapar de él.</P>
-                <h1 class="tit">HABILIDADES</h1>
-                <p class="tex"><b>SED INSASIABLE</b></p>
-                <p class="tex">Los ataques básicos de Warwick infligen daño mágico adicional. Si Warwick se encuentra por debajo del 50% de Vida, se cura esa cantidad. Si Warwick se encuentra por debajo del 25% de Vida, esta curación se triplica.</p>
-                <p class="tex"><b>FAUCES DE LA BESTIA</b></p>
-                <p class="tex">Warwick se lanza hacia adelante y muerde a su objetivo, infligiendo daño basado en sus PV máximos y curando a Warwick en proporción a los daños infligidos.</p>
-                <p class="tex"><b>CACERÍA DE SANGRE</b></p>
-                <p class="tex">Warwick siente a los enemigos con menos de 50% de vida, con lo que gana velocidad de movimiento y de ataque contra ellos. Cuando la vida de los enemigos cae por debajo de un 20%, Warwick entra en frenesí y estas bonificaciones se triplican.</p>
-                <p class="tex"><b>AULLIDO PRIMIGENIO</b></p>
-                <p class="tex">Warwick recibe daño reducido por 2,5 seg. Al finalizar, o si se activa de nuevo, Warwick aúlla y hace que los enemigos cercanos huyan de miedo por 1 seg.</p>
-                <p class="tex"><b>OPRECIÓN INFINITA</b></p>
-                <p class="tex">Warwick salta en una dirección (progresa con su velocidad de movimiento adicional) y suprime al primer campeón que alcanza durante 1.5 seg.</p>
-                <h1 class="tit">HISTORIA</h1>
-                <P class="tex">Warwick es un monstruo que ronda por los callejones grises de Zaun. Víctima de agonizantes experimentos, su cuerpo está fusionado con un sistema complejo de cámaras y bombas, una maquinaria que llena sus venas con furia alquímica. Warwick emerge de las sombras y ataca a los criminales que aterrorizan las profundidades de la ciudad. Lo atrae la sangre y su aroma lo vuelve loco. Nadie que la derrame puede escapar de él.
-                    Aunque muchos piensan en Warwick solo como una bestia, enterrada debajo de su ferocidad yace la mente de un hombre, un gánster que dejó su cuchillo y adoptó un nuevo nombre para vivir una mejor vida. Pero sin importar lo mucho que intentara superarlo, nunca pudo escapar de los pecados de su pasado.
-                    Los recuerdos de esa época vienen a Warwick en destellos, antes de que inevitablemente se pierdan, reemplazados por abrasadores ecos de los días que pasó atado a una mesa en el laboratorio de Singed, el rostro del químico loco amenazante ante él.
-                    Agobiado por el dolor, Warwick no puede recordar cómo cayó en las garras de Singed... y tiene problemas para recordar la época previa al sufrimiento. Los científicos lo cortaron con paciencia y le instalaron bombas y mangueras para inyectar químicos en sus venas, en búsqueda de lo que un alquimista siempre busca: la transmutación.
-                    Singed revelaría la verdadera naturaleza del sujeto, una bestia letal escondida en un "buen hombre".
-                    Los químicos inyectados en las venas de Warwick acelerando su sanación, lo que permitió a Singed rediseñar gradual y dolorosamente al hombre. Cuando le amputó la mano en el curso del experimento, Singed pudo volver a unirla, con poderosas garras neumáticas que llevaron a Warwick un paso más cerca de su verdadero potencial.
-                    Instaló una cavidad química en la espalda de Warwick, integrada a su sistema nervioso. Cuando Warwick sentía rabia, odio o miedo, esta conducía furia líquida a lo más profundo de sus venas para despertar completamente a la bestia en él.
-                    Se vio obligado a soportar todo, cada corte del bisturí del químico loco. El dolor, Singed le aseguró a su sujeto, era necesario, probaría ser el "gran catalizador" de su transformación. Aunque los químicos permitieron que el cuerpo de Warwick sanara casi todo el daño físico, su mente estaba destruida por la interminable agonía.
-                    Warwick tenía problemas para recordar una sola memoria de su pasado... Lo único que podía ver era sangre. De pronto escuchó gritar a una niña. Gritaba algo que no podía entender. Sonaba como un nombre.
-                    Él ya había olvidado el suyo. Sentía que era lo mejor.
-                    El dolor pronto abrumó todos sus pensamientos. Solo quedaba sangre.
-                    Aunque su mente y su cuerpo estuvieran destrozados después de semanas en la mesa, Warwick tercamente se resistió a los químicos que lo transmutaban. En lugar de lágrimas, de sus ojos cayeron toxinas. Tosió montones de flema ácida que crepitaban en su pecho, antes de formar agujeros superficiales en el piso del laboratorio. Retenido contra el frío acero de la mesa, Warwick se retorció en agonía durante horas, hasta que su cuerpo finalmente cedió.
-                    Después de la muerte prematura del sujeto, Singed se deshizo del cadáver en una profunda fosa en el Sumidero de Zaun, contemplando ya el siguiente experimento.
-                    Pero la muerte probó ser el verdadero catalizador necesario para la transformación de Warwick. Mientras yacía enfriándose encima de la pila de cadáveres, los químicos pudieron completar finalmente su trabajo. La cavidad en su espalda comenzó a bombear.
-                    Su cuerpo se contorsionó de forma anormal, sus huesos se doblaron y se quebraron, sus dientes crecieron, sus tendones se desgarraron y después sanaron con un débil resplandor alquímico, su carne muerta fue reemplazada con algo nuevo y poderoso. Para cuando su corazón comenzó a latir otra vez, el hombre que Warwick había sido y las vidas que había vivido se habían esfumado.
-                    Se despertó hambriento. Le dolía todo. Solo una cosa importaba.
-                    Necesitaba sangre.
-                    Primero, fue la sangre de un chatarrero del sumidero, que buscaba en la pila mortuoria. Y después la de una sacerdotisa de los Magníficos Evolucionados, que buscaba a un miembro de su grupo. Después la de un aprendiz piltoviano que tomaba un atajo, un comerciante con el rostro marcado que evitaba a una pandilla, un distribuidor de copas, un hombre de cuentas y un químico-punk...
-                    Armó su guarida no muy lejos de un lugar que anhelaba en el fondo de su ahora mente animal. Ahí, continuó la masacre, sin importarle quién caía en sus garras. Mientras la sangre goteara de sus rechinantes dientes, no sentiría más que una mancha roja en su consciencia. El hambre de sus entrañas aplastaba cualquier interés por sus víctimas aleatorias.
-                    Aun así, aunque había cedido ante la bestia, destellos de su pasado comenzaron a atormentarlo. Vio a un hombre barbudo reflejado en los ojos de un mendigo mientras le arrancaba la garganta. El otro hombre se veía serio, algo familiar, tenía cicatrices en los brazos. A veces, mientras se alimentaba en callejones oscuros de pandilleros vagabundos, el brillo de los cuchillos le recordaba una cuchilla vieja cubierta de sangre. La sangre pasaba de la cuchilla a sus manos. De sus manos a todo lo que tocaba. A veces, recordaba de nuevo a la niña.
-                    Y aún había sangre.
-                    Comprendió que siempre había estado ahí, toda su vida, y nada de lo que hiciera podía hacer que desapareciera. Había dejado tantas cicatrices que incluso si él no recordaba su pasado, la ciudad lo recordaría. Cuando miraba los ojos de los criminales de Zaun, los jefes de la pandilla, los asesinos y los ladrones, se veía a sí mismo. La cavidad en su espalda llenaba su cuerpo con odio. De sus dedos salían garras.
-                    Cazaba.
-                    Insatisfecho con matar indiscriminadamente, Warwick ahora busca a los que están ya cubiertos del hedor de sangre. Cubiertos al igual que él, el día en que se dirigió a la puerta de Singed.
-                    Aún se pregunta si realmente quería eso. No puede recordar los detalles, pero recuerda lo suficiente. Lo suficiente para saber que Singed había tenido razón todo este tiempo, el hombre bueno había sido una mentira, antes de que el desastre lo enterrara y revelara la verdad.
-                    Él es Warwick. Es un asesino.
-                    Y hay muchos asesinos a los que cazar.</P>
-               </div>
-               <div class="lowpart">
-                <img class="imagenes" src="recursos\1486061961_601715_1486062189_noticia_normal.jpg">
-                <img class="imagenes" src="recursos\e49ab9fe335de259d00a3f171de5ca93b7cd1399r1-1184-698v2_uhq-780x470.webp" >
-                <img class="imagenes" src="recursos\project-warwick-league-of-legends-lol-wallpaper-2048x1536_26.jpg" >
-                <img class="imagenes" src="recursos\warwick-old-god.jpg" >
-                <img class="imagenes" src="recursos\Warwick_7.webp" >
-                <p class="botton">skins</p>
-            </div>
+            <div class="col-4 ">
+                <div class="row botones">
+                    <a class="men col" href="https://universe.leagueoflegends.com/es_MX/story/champion/warwick/">LORE</a>
+                    <a class="men col" href="https://www.leagueoflegends.com/es-es/champions/warwick/">PAGINA OFICIAL</a>
+                    <a class="men col" href="https://www.leagueofgraphs.com/es/champions/stats/warwick">ESTADISTICAS</a>
+                </div>
+                <div class="arreglo">
+                    <h1 class="title center">LA FURIA DESATADA DE ZAUN</h1>
+                    <div class="scroll center">
+                        <h1 class="tit">DESCRIPCION</h1>
+                        <P class="tex">Warwick es un monstruo que ronda por los callejones grises de Zaun. Víctima de
+                            agonizantes experimentos, su cuerpo está fusionado con un sistema complejo de cámaras y
+                            bombas, una maquinaria que llena sus venas con furia alquímica. Warwick emerge de las
+                            sombras y ataca a los criminales que aterrorizan las profundidades de la ciudad. Lo atrae la
+                            sangre y su aroma lo vuelve loco. Nadie que la derrame puede escapar de él.</P>
+                        <h1 class="tit">HABILIDADES</h1>
+                        <p class="tex"><b>SED INSASIABLE</b></p>
+                        <p class="tex">Los ataques básicos de Warwick infligen daño mágico adicional. Si Warwick se
+                            encuentra por debajo del 50% de Vida, se cura esa cantidad. Si Warwick se encuentra por
+                            debajo del 25% de Vida, esta curación se triplica.</p>
+                        <p class="tex"><b>FAUCES DE LA BESTIA</b></p>
+                        <p class="tex">Warwick se lanza hacia adelante y muerde a su objetivo, infligiendo daño basado
+                            en sus PV máximos y curando a Warwick en proporción a los daños infligidos.</p>
+                        <p class="tex"><b>CACERÍA DE SANGRE</b></p>
+                        <p class="tex">Warwick siente a los enemigos con menos de 50% de vida, con lo que gana velocidad
+                            de movimiento y de ataque contra ellos. Cuando la vida de los enemigos cae por debajo de un
+                            20%, Warwick entra en frenesí y estas bonificaciones se triplican.</p>
+                        <p class="tex"><b>AULLIDO PRIMIGENIO</b></p>
+                        <p class="tex">Warwick recibe daño reducido por 2,5 seg. Al finalizar, o si se activa de nuevo,
+                            Warwick aúlla y hace que los enemigos cercanos huyan de miedo por 1 seg.</p>
+                        <p class="tex"><b>OPRECIÓN INFINITA</b></p>
+                        <p class="tex">Warwick salta en una dirección (progresa con su velocidad de movimiento
+                            adicional) y suprime al primer campeón que alcanza durante 1.5 seg.</p>
+                        <h1 class="tit">HISTORIA</h1>
+                        <P class="tex">Warwick es un monstruo que ronda por los callejones grises de Zaun. Víctima de
+                            agonizantes experimentos, su cuerpo está fusionado con un sistema complejo de cámaras y
+                            bombas, una maquinaria que llena sus venas con furia alquímica. Warwick emerge de las
+                            sombras y ataca a los criminales que aterrorizan las profundidades de la ciudad. Lo atrae la
+                            sangre y su aroma lo vuelve loco. Nadie que la derrame puede escapar de él.
+                            Aunque muchos piensan en Warwick solo como una bestia, enterrada debajo de su ferocidad yace
+                            la mente de un hombre, un gánster que dejó su cuchillo y adoptó un nuevo nombre para vivir
+                            una mejor vida. Pero sin importar lo mucho que intentara superarlo, nunca pudo escapar de
+                            los pecados de su pasado.
+                            Los recuerdos de esa época vienen a Warwick en destellos, antes de que inevitablemente se
+                            pierdan, reemplazados por abrasadores ecos de los días que pasó atado a una mesa en el
+                            laboratorio de Singed, el rostro del químico loco amenazante ante él.
+                            Agobiado por el dolor, Warwick no puede recordar cómo cayó en las garras de Singed... y
+                            tiene problemas para recordar la época previa al sufrimiento. Los científicos lo cortaron
+                            con paciencia y le instalaron bombas y mangueras para inyectar químicos en sus venas, en
+                            búsqueda de lo que un alquimista siempre busca: la transmutación.
+                            Singed revelaría la verdadera naturaleza del sujeto, una bestia letal escondida en un "buen
+                            hombre".
+                            Los químicos inyectados en las venas de Warwick acelerando su sanación, lo que permitió a
+                            Singed rediseñar gradual y dolorosamente al hombre. Cuando le amputó la mano en el curso del
+                            experimento, Singed pudo volver a unirla, con poderosas garras neumáticas que llevaron a
+                            Warwick un paso más cerca de su verdadero potencial.
+                            Instaló una cavidad química en la espalda de Warwick, integrada a su sistema nervioso.
+                            Cuando Warwick sentía rabia, odio o miedo, esta conducía furia líquida a lo más profundo de
+                            sus venas para despertar completamente a la bestia en él.
+                            Se vio obligado a soportar todo, cada corte del bisturí del químico loco. El dolor, Singed
+                            le aseguró a su sujeto, era necesario, probaría ser el "gran catalizador" de su
+                            transformación. Aunque los químicos permitieron que el cuerpo de Warwick sanara casi todo el
+                            daño físico, su mente estaba destruida por la interminable agonía.
+                            Warwick tenía problemas para recordar una sola memoria de su pasado... Lo único que podía
+                            ver era sangre. De pronto escuchó gritar a una niña. Gritaba algo que no podía entender.
+                            Sonaba como un nombre.
+                            Él ya había olvidado el suyo. Sentía que era lo mejor.
+                            El dolor pronto abrumó todos sus pensamientos. Solo quedaba sangre.
+                            Aunque su mente y su cuerpo estuvieran destrozados después de semanas en la mesa, Warwick
+                            tercamente se resistió a los químicos que lo transmutaban. En lugar de lágrimas, de sus ojos
+                            cayeron toxinas. Tosió montones de flema ácida que crepitaban en su pecho, antes de formar
+                            agujeros superficiales en el piso del laboratorio. Retenido contra el frío acero de la mesa,
+                            Warwick se retorció en agonía durante horas, hasta que su cuerpo finalmente cedió.
+                            Después de la muerte prematura del sujeto, Singed se deshizo del cadáver en una profunda
+                            fosa en el Sumidero de Zaun, contemplando ya el siguiente experimento.
+                            Pero la muerte probó ser el verdadero catalizador necesario para la transformación de
+                            Warwick. Mientras yacía enfriándose encima de la pila de cadáveres, los químicos pudieron
+                            completar finalmente su trabajo. La cavidad en su espalda comenzó a bombear.
+                            Su cuerpo se contorsionó de forma anormal, sus huesos se doblaron y se quebraron, sus
+                            dientes crecieron, sus tendones se desgarraron y después sanaron con un débil resplandor
+                            alquímico, su carne muerta fue reemplazada con algo nuevo y poderoso. Para cuando su corazón
+                            comenzó a latir otra vez, el hombre que Warwick había sido y las vidas que había vivido se
+                            habían esfumado.
+                            Se despertó hambriento. Le dolía todo. Solo una cosa importaba.
+                            Necesitaba sangre.
+                            Primero, fue la sangre de un chatarrero del sumidero, que buscaba en la pila mortuoria. Y
+                            después la de una sacerdotisa de los Magníficos Evolucionados, que buscaba a un miembro de
+                            su grupo. Después la de un aprendiz piltoviano que tomaba un atajo, un comerciante con el
+                            rostro marcado que evitaba a una pandilla, un distribuidor de copas, un hombre de cuentas y
+                            un químico-punk...
+                            Armó su guarida no muy lejos de un lugar que anhelaba en el fondo de su ahora mente animal.
+                            Ahí, continuó la masacre, sin importarle quién caía en sus garras. Mientras la sangre
+                            goteara de sus rechinantes dientes, no sentiría más que una mancha roja en su consciencia.
+                            El hambre de sus entrañas aplastaba cualquier interés por sus víctimas aleatorias.
+                            Aun así, aunque había cedido ante la bestia, destellos de su pasado comenzaron a
+                            atormentarlo. Vio a un hombre barbudo reflejado en los ojos de un mendigo mientras le
+                            arrancaba la garganta. El otro hombre se veía serio, algo familiar, tenía cicatrices en los
+                            brazos. A veces, mientras se alimentaba en callejones oscuros de pandilleros vagabundos, el
+                            brillo de los cuchillos le recordaba una cuchilla vieja cubierta de sangre. La sangre pasaba
+                            de la cuchilla a sus manos. De sus manos a todo lo que tocaba. A veces, recordaba de nuevo a
+                            la niña.
+                            Y aún había sangre.
+                            Comprendió que siempre había estado ahí, toda su vida, y nada de lo que hiciera podía hacer
+                            que desapareciera. Había dejado tantas cicatrices que incluso si él no recordaba su pasado,
+                            la ciudad lo recordaría. Cuando miraba los ojos de los criminales de Zaun, los jefes de la
+                            pandilla, los asesinos y los ladrones, se veía a sí mismo. La cavidad en su espalda llenaba
+                            su cuerpo con odio. De sus dedos salían garras.
+                            Cazaba.
+                            Insatisfecho con matar indiscriminadamente, Warwick ahora busca a los que están ya cubiertos
+                            del hedor de sangre. Cubiertos al igual que él, el día en que se dirigió a la puerta de
+                            Singed.
+                            Aún se pregunta si realmente quería eso. No puede recordar los detalles, pero recuerda lo
+                            suficiente. Lo suficiente para saber que Singed había tenido razón todo este tiempo, el
+                            hombre bueno había sido una mentira, antes de que el desastre lo enterrara y revelara la
+                            verdad.
+                            Él es Warwick. Es un asesino.
+                            Y hay muchos asesinos a los que cazar.</P>
+                    </div>
+                    <div class="lowpart row">
+                        <div class="col-9 imagenss">
+                            <img class="imagenes" src="recursos\1486061961_601715_1486062189_noticia_normal.jpg">
+                            <img class="imagenes"
+                                src="recursos\e49ab9fe335de259d00a3f171de5ca93b7cd1399r1-1184-698v2_uhq-780x470.webp">
+                            <img class="imagenes"
+                                src="recursos\project-warwick-league-of-legends-lol-wallpaper-2048x1536_26.jpg">
+                            <img class="imagenes" src="recursos\warwick-old-god.jpg">
+                            <img class="imagenes" src="recursos\Warwick_7.webp">
+                        </div>
+                        <div class="col-3 contentbotom">
+                            <p class="botton">skins</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col ">
+        <div class="row fooder">
+            <div class="col arre">
                 <p>SOPORTE</p>
                 <p>PRIVACIDAD</p>
                 <p>ACCESO</p>
                 <p>TRABAJA CON NOSOTROS</p>
             </div>
-            <div class="col ">
-                <img src="">
-                <img src="">
-                <img src="">
-                <img src="">
-                <img src="">
+            <div class="col arre">
+                <img class="icon" src="recursos/youtube.png">
+                <img class="icon" src="recursos/whatsapp.png">
+                <img class="icon" src="recursos/twitch.png">
+                <img class="icon" src="recursos/instagram.png">
+                <img class="icon" src="recursos/discord.png">
             </div>
-            <div class="col ">
+            <div class="col arre">
                 <h1>CONTACTANOS</h1>
                 <p>celular:3133513939</p>
                 <p>correo:juandaesca5@hotmail.com</p>
@@ -95,4 +187,5 @@
         </div>
     </div>
 </body>
+
 </html>
