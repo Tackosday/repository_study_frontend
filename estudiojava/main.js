@@ -1,10 +1,51 @@
-const lista={
-    "tradicional (%)":["90-100","80-89","70-79","60-69","<60","0"],
-    "14-point range":["12-14","9-11","6-8","3-52","1-2","0"],
-    "letter":["A","B","C","D","E","Z",],
-    "SBG Rating":[4,3,2,1,0,0],
-    ""
+let tabla=[    
+    {traditional:"90-100",pointRange:"12-14",letter:"A",SBGRating:4,ProficiencyLevel:"exceeds profienciency"},
+    {traditional:"80-89",pointRange:"9-11",letter:"B",SBGRating:3,ProficiencyLevel:"Demonstrates proficiency"},
+    {traditional:"70-79",pointRange:"6-8",letter:"C",SBGRating:2,ProficiencyLevel:"approaches profienciency"},
+    {traditional:"60-69",pointRange:"3-5",letter:"D",SBGRating:1,ProficiencyLevel:"falls well below profienciency"},
+    {traditional:"<60",pointRange:"1-2",letter:"E",SBGRating:0,ProficiencyLevel:"lacks all profienciency"},
+    {traditional:"0",pointRange:"0",letter:"F",SBGRating:0,ProficiencyLevel:"no attempt made"}
+];
 
-};
+console.table(tabla,[`traditional`,`pointRange`,`letter`,`SBGRating`,`ProficiencyLevel`])
 
-nota=prompt("ingresa tu nota")
+ let nota=prompt("ingresa tu nota")
+switch(nota){
+    case (nota >= 90 && nota<=100):
+        console.log(`¡EXELENTE!, tus datos fueron los siguientes:\n
+        calificacion:\tA\n
+        ranking:\t4\n
+        exceeds profienciency`)
+    break;
+    case nota >= 80 && nota<=89:
+        console.log(`¡VAMOOOSS!, tus datos fueron los siguientes:\n
+        calificacion:\tB\n
+        ranking:\t3\n
+        Demonstrates proficiency`)
+    break;
+    case nota >= 70 && nota<=79:
+        console.log(`BIEN, tus datos fueron los siguientes:\n
+        calificacion:\tC\n
+        ranking:\t2\n
+        approaches profienciency`)
+    break;
+    case nota >= 60 && nota<=69:
+        console.log(`DALE TU PUEDES, tus datos fueron los siguientes:\n
+        calificacion:\tD\n
+        ranking:\t1\n
+        falls well below profienciency`)
+    break;
+    case nota > 0 && nota<60:
+        console.log(`ESFORZATE, tus datos fueron los siguientes:\n
+        calificacion:\tE\n
+        ranking:\t0\n
+        no attempt made`)
+    break;
+    case 0:
+        console.log(`PENDEJO, tus datos fueron los siguientes:\n
+        calificacion:\tF\n
+        ranking:\t0\n
+        exceeds profienciency`)
+    break;
+}
+
