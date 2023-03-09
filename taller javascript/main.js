@@ -1,6 +1,6 @@
 
-let MiGranPoema="Del cielo cayo una rosa, ayer me comi una oblea y como no soy poeta coman mierda gonorreas";
+let MiGranPoema="Rosa ";
 console.log(MiGranPoema);
-console.log("podemos extraer partes del texto como substring ");
-console.log("MiGranPoema.slice(0,23)");
-console.log(MiGranPoema.slice(0,23));
+console.log("podemos extraer caracter de una string");
+console.log("MiGranPoema.charAt(0,23)");
+console.log(MiGranPoema.charAt(0,23));
