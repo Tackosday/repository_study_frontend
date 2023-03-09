@@ -1,6 +1,6 @@
 
-let elemento="Rosa ";
-console.log(elemento);
-console.log("podemos repetir una string y convertirla en otra string");
-let repit= parseInt(prompt(`cuantas veces deseas repetir ${elemento}`));
-console.log(elemento.repeat(repit));
+let MiGranPoema="Del cielo cayo una rosa, ayer me comi una oblea y como no soy poeta coman mierda gonorreas";
+console.log(MiGranPoema);
+console.log("podemos extraer partes del texto como substring ");
+console.log("MiGranPoema.slice(0,23)");
+console.log(MiGranPoema.slice(0,23));
