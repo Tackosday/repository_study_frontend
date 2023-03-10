@@ -1,2 +1,2 @@
-console.log(Math.random());
-console.log(Math.random()*100);
+console.log(Math.sqrt(81));
+console.log(Math.sqrt(81)*Math.sqrt(81));
