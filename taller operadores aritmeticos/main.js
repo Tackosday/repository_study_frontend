@@ -1,7 +1,8 @@
-const num=prompt("no me des un un numero del 1 al diez")
+let num0=prompt("coloca un numero");
+let num1=prompt("coloca un numero igual al anterior");
 
-if  (num >= 10 || num < 0){
-    console.log(!false)    
+if(num0==num1){
+    console.log("perfecto");
 }else{
-    console.log(!true)
+    console.log("hazme caso ");
 }
