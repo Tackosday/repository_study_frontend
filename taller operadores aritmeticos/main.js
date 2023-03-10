@@ -1,5 +1,8 @@
-const valor0=5;
-const valor1=2;
+let valor0=5;
+let valor1=2;
 
-console.log("valor0 % valor1")
-console.log(valor0%valor1)
+console.log("const valor00=valor0 ++;\nconst valor10=++ valor1;");
+const valor00=valor0 ++;
+const valor10=++ valor1;
+console.log(valor00)
+console.log(valor00)
