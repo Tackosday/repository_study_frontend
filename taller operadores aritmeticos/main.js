@@ -1,2 +1,7 @@
-console.log(Math.sqrt(81));
-console.log(Math.sqrt(81)*Math.sqrt(81));
+const num=prompt("decime un numero del 1 al diez")
+
+if  (num <= 10 && num > 0){
+    console.log("asi me gusta, que obedesca")    
+}else{
+    console.log("quiere que le mande un gota gota?? ")
+}
