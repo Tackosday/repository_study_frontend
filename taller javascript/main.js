@@ -1,7 +1,4 @@
-const array=[
-    pri="(1)",
-    sec="(2)",
-    ter="(3)",
-];
-console.log("indexOf(2)");
-console.log(array.indexOf("(2)"));
+const parrafo="este es un texto prueba para utilizar comandos de prueba";
+const strExtraer="prueba";
+console.log(parrafo);
+console.log(`la ultima vez que sale la palabra ${strExtraer} en el texto es en ${parrafo.lastIndexOf(strExtraer)}`);
