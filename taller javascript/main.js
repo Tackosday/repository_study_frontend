@@ -1,5 +1,3 @@
-const primVar="banana";
-const secVar="cereza";
-console.log("banana // cereza");
-let compVar=primVar.localeCompare(secVar);
-console.log(compVar);
+const primVar="bienvenido jugador a la grieta de invocador";
+console.log(primVar.match("vocador"));
+
