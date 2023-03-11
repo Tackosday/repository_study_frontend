@@ -1,12 +1,9 @@
 
 
-let num0=prompt("digita un numero");
-let num1=prompt("otra vez digita un numero");
+let num0=prompt("numero entre 1 a 10");
 
-if(num0>num1){
-    console.log("es mayor que");
-}else if(num0<num1){
-    console.log("es menor que");
+if(num0>=1 && num0<=10){
+    console.log("perfecto");
 }else{
-    console.log("es igual");
+    console.log("obedece esclavo")
 }
