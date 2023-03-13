@@ -1,24 +1,14 @@
-let eda0=parseInt(prompt("edad del primer usuario"));
-let eda1=parseInt(prompt("edad del segundo usuario"));
-let eda2=parseInt(prompt("edad del tercero usuario"));
-let mayor;
-let cual;
-if(eda0>eda1){
-    if(eda0>eda2){
-        cual="primero";
-        mayor=eda0;
-    }else{
-        cual="tercero";
-        mayor=eda2;
-    }
-}else{
-    if(eda1>eda2){
-        cual="segundo";
-        mayor=eda1;
-    }else{
-        cual="tercero";
-        mayor=eda2;
-    }
-}
+let num0=parseInt(prompt("da un numero"));
+let num1=parseInt(prompt("da otro numero"));
 
-console.log(`el usuario con mas años es el ${cual} con ${mayor} años`)
+if(num0>num1){
+    console.log("adicion");
+    console.log(`${num0} + ${num1} = ${num0+num1}`);
+    console.log("sustraccion");
+    console.log(`${num0} - ${num1} = ${num0-num1}`);
+}else{
+    console.log("producto");
+    console.log(`${num0} % ${num1} = ${num0%num1}`);
+    console.log("sustraccion");
+    console.log(`${num0} / ${num1} = ${num0/num1}`);
+}
