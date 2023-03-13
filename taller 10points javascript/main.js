@@ -1,11 +1,14 @@
-let num0=parseInt(prompt("ingresa tu numero de nota"));
-let num1=parseInt(prompt("ingresa tu numero de nota"));
-let num2=parseInt(prompt("ingresa tu numero de nota"));
+let num0=parseInt(prompt("digita un numero"));
+let nume=num0%2
+let sol;
+if(nume==0){
+    sol="este numero es par";
+}else if(nume=1){
+    sol="este numero no es par";
+}
 
-let promedio=(num0+num1+num2)/3
-
-if(promedio<=3.9){
-    console.log("estudie")
+if(num0>10){
+    console.log(`este numero es mayor a 10 y ${sol}`);
 }else{
-    console.log("becado")
+    console.log(`este numero no es mayor a 10 y ${sol}`);
 }
