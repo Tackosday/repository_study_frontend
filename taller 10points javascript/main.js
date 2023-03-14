@@ -1,14 +1,21 @@
-let num0=parseInt(prompt("da un numero"));
-let num1=parseInt(prompt("da otro numero"));
+let bool=true;
+let nombres=[];
+let genero=[];
+let final=[];
 
-if(num0>num1){
-    console.log("adicion");
-    console.log(`${num0} + ${num1} = ${num0+num1}`);
-    console.log("sustraccion");
-    console.log(`${num0} - ${num1} = ${num0-num1}`);
-}else{
-    console.log("producto");
-    console.log(`${num0} % ${num1} = ${num0%num1}`);
-    console.log("sustraccion");
-    console.log(`${num0} / ${num1} = ${num0/num1}`);
-}
+console.log("digital los siguientes datos??");
+do{
+    let nombre=prompt("ingresa el nombre");
+    let sexo=prompt("ingresa el sexo");
+    let nota=parseInt(prompt("ingresa tu nota final"));
+    nombres.push(nombre);
+    genero.push(sexo);
+    final.push(nota);
+    console.log(nombres);
+    console.log(genero);
+    console.log(final);
+ 
+}while(confirm("desea continuar??"))
+let mayor=Math.max(...final);
+let num=final.indexOf(mayor);
+console.log(`la nota mas alta fue la de ${nombres[num]} con una nota de ${mayor}`)
