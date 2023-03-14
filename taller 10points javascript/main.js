@@ -1,5 +1,6 @@
-let nombre=prompt("cual es tu nombre");
-let costo=parseInt(prompt("cuanto vale el producto??"));
-let cuantos=parseInt(prompt("cuantos productos lleva??"));
+let latCua=parseInt(prompt("cuanto mide el lado de un cuadrado??"));
+let altRec=parseInt(prompt("cuanto mide la altura del rectangulo??"));
+let basRec=parseInt(prompt("cuanto mide la base del rectangulo??"));
 
-console.log(`a nombre de ${nombre}\ncompra con un total de ${costo*cuantos}`)
+console.log(`el perimetro del cuadrado mide ${latCua*4}`);
+console.log(`el area del rectangulo mide ${altRec*basRec}`);
