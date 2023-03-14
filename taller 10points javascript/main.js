@@ -1,6 +1,18 @@
-let latCua=parseInt(prompt("cuanto mide el lado de un cuadrado??"));
-let altRec=parseInt(prompt("cuanto mide la altura del rectangulo??"));
-let basRec=parseInt(prompt("cuanto mide la base del rectangulo??"));
+let atleta=[];
+let marcas=[];
+do{
+let atleta0=prompt("nombre del atleta");
+let marca0=parseFloat(prompt("cuanto fue su marca"));
 
-console.log(`el perimetro del cuadrado mide ${latCua*4}`);
-console.log(`el area del rectangulo mide ${altRec*basRec}`);
+atleta.push(atleta0)
+marcas.push(marca0)
+console.log(atleta,marcas)
+}while(confirm("desea agregar mas datos??")){    
+
+}
+let mayor=Math.max(...marcas)
+let uca=marcas.indexOf(mayor)
+console.log(`el ganador de los juegos olipicos de triple salto es ${atleta[uca]}`)
+ if (marcas.indexOf(mayor)>15.50){
+    console.log("ademas ganaste 500 millones de pesos")
+ }
