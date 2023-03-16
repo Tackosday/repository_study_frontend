@@ -19,12 +19,27 @@
   </fieldset>  
 
 <!-- datos de trainers o campers -->
-<fieldset>
+  <fieldset>
     <legend>Datos generales</legend>
-    <form id="dataCampers">
-        <input type="text" placeholder="digita tu sede">
-        <input type="submit" value="guardar">
+    <form id="dataTrainerCamper">
+      <select name='sede'></select>
+      <select name="Rol">
+        <option value="...">...</option>
+        <option value="Trainer">Trainer</option>
+        <option value="Camper">Camper</option>
+      </select>
+      <select name="team">
+        <option value="...">...</option>
+        <option value="Team1">Team 1</option>
+        <option value="Team2">Team 2</option>
+        <option value="Team3">Team 3</option>
+        <option value="Team4">Team 4</option>
+      </select>
+      <br>
+      <br>
+      <input name="name" type="text" placeholder="Ingrese el nombre"><br><br>
+      <input name="cel" type="text" placeholder="Ingresa el numero de telefono"><br><br>
+      <input type="submit" value="guardar">
     </form>
-  </fieldset>  
-</body>
-</html>
+  </fieldset>
+  </body>
