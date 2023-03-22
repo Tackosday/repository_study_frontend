@@ -29,8 +29,8 @@ export default {
 ],
 
 theTitle(){
-    document.querySelector("#title").insertAdjacentHTML("beforeend",`
-    <a class="blog-header-logo text-dark" href="${this.title}">${this.title.name}</a>`)
+    console.log('title')
+    document.querySelector("#title").insertAdjacentHTML("beforeend",`<a class="blog-header-logo text-dark" href="${this.title}">${this.title.name}</a>`)
 },
 
 
