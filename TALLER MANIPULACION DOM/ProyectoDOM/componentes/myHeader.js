@@ -29,14 +29,14 @@ export default {
 ],
 
 theTitle(){
-    document.querySelector("#title").insertAdjacentHTML("beforeend",`<a class="blog-header-logo text-dark text-decoration-none" href="${this.title.href}">${this.title.name}</a>`)
+    document.querySelector("#title").insertAdjacentHTML("beforeend",`<a class="blog-header-logo text-white text-decoration-none" href="${this.title.href}">${this.title.name}</a>`)
 },
 
 
 albumList(){
 let plantilla="";
 this.Albums.forEach((val,id)=>{
-    plantilla+=`<a class="p-2 link-secondary text-decoration-none"
+    plantilla+=`<a class="p-2 link-secondary text-decoration-none text-white"
     href="${val.href}">${val.name}</a>`
     });
     document.querySelector("#Albums").insertAdjacentHTML("beforeend",plantilla);

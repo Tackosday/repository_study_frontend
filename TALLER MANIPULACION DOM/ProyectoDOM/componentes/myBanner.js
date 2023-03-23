@@ -7,6 +7,6 @@ banner1:{
 titleBannerOne(){
     document.querySelector("#banner1").insertAdjacentHTML("afterbegin",`<h1 class="display-4 fst-italic">${this.banner1.subtitle}</h1>`)
     document.querySelector("#banner1").insertAdjacentHTML("beforeend",`<p class="lead my-3">${this.banner1.parrafo}</p>`)
-    document.querySelector("#banner1").insertAdjacentHTML("beforeend",`<p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>`)
+    document.querySelector("#banner1").insertAdjacentHTML("beforeend",`<p class="lead mb-0"><a href="#" class="text-white fw-bold text-decoration-none">Continue reading...</a></p>`)
 }
 }

@@ -1,4 +1,22 @@
+body{
+    background-color: rgb(16, 4, 4);
+}
 .bannerPartImage{
-    background-color:rgb(9, 1, 9);
-    width: 100%;
+    background-color:rgb(6, 0, 2);
+    width: 100;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    z-index:-1;
+    position: absolute;
+    
+}
+
+.contain{
+    padding: 130px 0px;
+    margin-left:20px ;
+}
+
+*{
+    color:white
 }
