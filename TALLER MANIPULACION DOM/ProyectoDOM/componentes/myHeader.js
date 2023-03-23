@@ -29,8 +29,7 @@ export default {
 ],
 
 theTitle(){
-    console.log('title')
-    document.querySelector("#title").insertAdjacentHTML("beforeend",`<a class="blog-header-logo text-dark" href="${this.title}">${this.title.name}</a>`)
+    document.querySelector("#title").insertAdjacentHTML("beforeend",`<a class="blog-header-logo text-dark text-decoration-none" href="${this.title}">${this.title.name}</a>`)
 },
 
 
@@ -39,7 +38,7 @@ let plantilla="";
 this.Albums.forEach((val,id)=>{
     plantilla+=`<a class="p-2 link-secondary"
     href="#">${val.name}</a>`
-});
-    document.querySelector("#Albums").insertAdjacentHTML("beforeend");
+    });
+    document.querySelector("#Albums").insertAdjacentHTML("beforeend",plantilla);
 }
-}
+ }
