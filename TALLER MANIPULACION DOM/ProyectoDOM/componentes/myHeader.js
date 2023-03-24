@@ -35,7 +35,7 @@ theTitle(){
 
 albumList(){
 let plantilla="";
-this.Albums.forEach((val,id)=>{
+this.Albums.forEach((val)=>{
     plantilla+=`<a class="p-2 link-secondary text-decoration-none text-white"
     href="${val.href}">${val.name}</a>`
     });
