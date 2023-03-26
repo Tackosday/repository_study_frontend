@@ -8,4 +8,8 @@ myHeader.albumList();
 myBanner.titleBannerOne();
 myPost.miniBannerOne();
 myPost.miniBannerTwo();
+mySecondCol.cardSong();
+mySecondCol.listaAlbums();
+mySecondCol.networks();
 myFirstCol.genre();
+myFirstCol.articleOneAct();
