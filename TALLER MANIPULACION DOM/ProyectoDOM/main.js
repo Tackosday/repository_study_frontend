@@ -3,6 +3,7 @@ import myBanner from "./componentes/myBanner.js";
 import myPost from "./componentes/myPost.js"
 import mySecondCol from "./componentes/mySecondCol.js";
 import myFirstCol from "./componentes/myFirstCol.js";
+
 myHeader.theTitle();
 myHeader.albumList();
 myBanner.titleBannerOne();
@@ -13,3 +14,5 @@ mySecondCol.listaAlbums();
 mySecondCol.networks();
 myFirstCol.genre();
 myFirstCol.articleOneAct();
+
+myHeader.fragShow();

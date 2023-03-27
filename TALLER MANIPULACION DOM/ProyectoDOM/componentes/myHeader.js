@@ -41,4 +41,4 @@ this.Albums.forEach((val)=>{
     });
     document.querySelector("#Albums").insertAdjacentHTML("beforeend",plantilla);
 }
- }
+}
