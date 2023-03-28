@@ -21,7 +21,7 @@ miniBannerOne(){
     document.querySelector("#cardOne").insertAdjacentHTML("beforeend",`
     <strong class="small d-inline-block mb-2 text-danger">${this.dataCardOne.strongTitle}</strong>
     <h3 class="small mb-0">${this.dataCardOne.titleCard}</h3>
-    <div class=dangermb-1 text-muted">${this.dataCardOne.subtitle}</div>
+    <div class="small dangermb-1 text-muted">${this.dataCardOne.subtitle}</div>
     <p class="small card-text mb-auto">${this.dataCardOne.paragraph}</p>
     <a href="${this.dataCardOne.continueLink}" class="stretched-link text-danger">${this.dataCardOne.continue}</a>
     `)
