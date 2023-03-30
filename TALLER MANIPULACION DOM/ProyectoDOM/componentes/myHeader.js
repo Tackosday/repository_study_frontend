@@ -1,44 +1,21 @@
+import config from "../storage/config.js";
 export default {
     
-    title:{
-        name:"EL CUARTETO DE NOS",
-        href:"https://cuartetodenos.com.uy/"
-    },
-    Albums:[
-    {
-        name:"RARO",
-        href:"https://www.youtube.com/watch?v=FTHnXLw6_Jk&t=1s"
-    },
-    {
-        name:"PORFIADO",
-        href:"https://www.youtube.com/watch?v=k-wO4e4h3us"
-    },
-    {
-        name:"BIPOLAR",
-        href:"https://www.youtube.com/watch?v=AZm3Q-HIp80"
-    },
-    {
-        name:"APOCALIPSIS ZOMBIE",
-        href:"https://www.youtube.com/watch?v=FTHnXLw6_Jk&t=1s"
-    },
-    {
-        name:"HABLA TU ESPEJO",
-        href:"https://www.youtube.com/watch?v=uUy0577epHo&list=PLjHAKTrRyrBvWA0cHbjpCzJcJbv2a_fBq"
-    },
-
-],
-
-theTitle(){
-    document.querySelector("#title").insertAdjacentHTML("beforeend",`<a class="blog-header-logo text-white text-decoration-none" href="${this.title.href}">${this.title.name}</a>`)
-},
 
 
-albumList(){
-let plantilla="";
-this.Albums.forEach((val)=>{
-    plantilla+=`<a class="p-2 link-secondary text-decoration-none text-white"
-    href="${val.href}">${val.name}</a>`
-    });
-    document.querySelector("#Albums").insertAdjacentHTML("beforeend",plantilla);
+worker(){
+    config.dataMyHeader();
+    Object.assign(this, JSON.parse(localStorage.getItem("myHeader")));
+    const work= new Worker(`storage/wsHeader.js`,{type:"module"});
+    let id=[];
+    let count=0;
+    work.postMessage({module:"titlePage", data:this.title});
+    work.postMessage({module:"banners", data:this.Albums});
+    work.addEventListener("message",(e)=>{
+        id=["#title","#Albums"];
+        let traduction=new DOMParser().parseFromString(e.data,"text/html");
+        document.querySelector(id[count]).append(...traduction.body.children);
+        (id.length-1==0) ? work.terminate():count++;
+    });   
 }
-}
+ }

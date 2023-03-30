@@ -3,10 +3,14 @@ banner1:{
     subtitle:"UNA BANDA MUY RARA",
     parrafo:"El mejor rock de toda sudamerica....o de todo el mundo",
 },
-
-titleBannerOne(){
-    document.querySelector("#banner1").insertAdjacentHTML("afterbegin",`<h1 class="display-4 fst-italic">${this.banner1.subtitle}</h1>`)
-    document.querySelector("#banner1").insertAdjacentHTML("beforeend",`<p class="lead my-3">${this.banner1.parrafo}</p>`)
-    document.querySelector("#banner1").insertAdjacentHTML("beforeend",`<p class="lead mb-0"><a href="#" class="text-white fw-bold text-decoration-none">Continue reading...</a></p>`)
+worker(){
+    const work= new Worker(`storage/wsBanner.js`,{type:"module"}); 
+    work.postMessage({module:"banInfo", data:this.banner1});
+    work.addEventListener("message",(e)=>{
+        let traduction = new DOMParser().parseFromString(e.data,"text/html");
+        document.querySelector("#banner1").append(...traduction.body.children);
+        work.terminate();
+    })
 }
+
 }

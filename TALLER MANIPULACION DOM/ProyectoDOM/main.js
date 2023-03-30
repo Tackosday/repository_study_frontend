@@ -4,15 +4,15 @@ import myPost from "./componentes/myPost.js"
 import mySecondCol from "./componentes/mySecondCol.js";
 import myFirstCol from "./componentes/myFirstCol.js";
 
-myHeader.theTitle();
-myHeader.albumList();
-myBanner.titleBannerOne();
-myPost.miniBannerOne();
-myPost.miniBannerTwo();
+myHeader.worker();
+myBanner.worker();
+myPost.worker();
+myFirstCol.fooder();
+myFirstCol.elCuarteto();
+myFirstCol.articleTwoAct();
+myFirstCol.articleOneAct();
+myFirstCol.genre();
 mySecondCol.cardSong();
 mySecondCol.listaAlbums();
 mySecondCol.networks();
-myFirstCol.genre();
-myFirstCol.articleOneAct();
 
-myHeader.fragShow();
