@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="main.js" type="module" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.2.2/dist/echarts.min.js"></script>
+    <title>Presupuesto</title>
+</head>
+<body>
+    
+        <section class="back text-center align-items-center justify-content-center d-flex fPart">
+             <div>
+              <p>PRESUPUESTOS DIPONIBLES</p>
+           <h1>$1.000.000</h1>
+           <div class=" d-flex direction ">
+               <div class="backIngSup info justify-content-between">
+                 <div>
+                     <p><b>ingresos</b></p>
+                 </div>
+                 <div>
+                     <p><b>$10.000</b></p>
+                 </div>
+                 <div>
+                    <p><b>50%</b></p>
+                </div>
+              </div>
+              <div class="backGasSup info justify-content-between">
+                 <div>
+                     <p><b>gastos</b></p>
+                 </div>
+                 <div>
+                     <p><b>$10.000</b></p>
+                 </div>
+                 <div>
+                    <p><b>50% </b></p>
+                </div>
+              </div>
+          </div>
+         </section>
+<!-- ------------------------------------------------------------------- -->
+<div class="d-flex justify-content-center backG">
+    <div class="d-flex m-3">
+        <div class="d-flex align-items-center">            
+            <label class="switch marG">
+                <input type="checkbox" id="checkbox">
+                <span class="slider"></span>
+              </label>
+            <div class="inputbox  marG">
+                <input required="required" type="text">
+                <span>DESCRIPCION</span>
+                <i></i>
+            </div>
+            <div class="inputbox marG">
+                <input required="required" type="text">
+                <span>CANTIDAD</span>
+                <i></i>
+            </div>
+        </div>
+        <div>            
+            <button class=" marG">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                    </svg>
+                </div>
+            </div>
+            <span>Send</span>
+        </button>
+    </div>
+            </div>
+    </div>
+<!-- ------------------------------------------------------------------- -->
+        <section class="frac"> 
+         <div class="block backIng padList">
+             <h1 class="tit" >ingresos</h1>
+                 <table>
+                    <tr>
+                        <td class="descrip">pago del campus</td>
+                        <td class="val"> $10.000</td>
+                        <td class="pors">10%</td>
+                    </tr>
+                    <tr>
+                        <td class="descrip">pago del campus</td>
+                        <td class="val"> $10.000</td>
+                        <td class="pors">10%</td>
+                    </tr>
+                    <tr>
+                        <td class="descrip">pago del campus</td>
+                        <td class="val"> $10.000</td>
+                        <td class="pors">10%</td>
+                    </tr>
+                    <tr>
+                        <td class="descrip">pago del campus</td>
+                        <td class="val"> $10.000</td>
+                        <td class="pors">10%</td>
+                    </tr>
+                 </table>   
+         </div>
+         </div>
+        
+
+        <div class="block backGas padList">
+            <h1 class="tit">gastos</h1>
+            <table>
+                <tr>
+                    <td class="descrip">pago del transporte</td>
+                    <td class="val"> $10.000</td>
+                    <td class="pors">10%</td>
+                </tr>
+                <tr>
+                    <td class="descrip">pago del transporte</td>
+                    <td class="val"> $10.000</td>
+                    <td class="pors">10%</td>
+                </tr>
+                <tr>
+                    <td class="descrip">pago del transporte</td>
+                    <td class="val"> $10.000</td>
+                    <td class="pors">10%</td>
+                </tr>
+                <tr>
+                    <td class="descrip">pago del transporte</td>
+                    <td class="val"> $10.000</td>
+                    <td class="pors">10%</td>
+                </tr>
+                <tr>
+                    <td class="descrip">pago del transporte</td>
+                    <td class="val"> $10.000</td>
+                    <td class="pors">10%</td>
+                </tr>
+                <tr>
+                    <td class="descrip">pago del transporte</td>
+                    <td class="val"> $10.000</td>
+                    <td class="pors">10%</td>
+                </tr>
+             </table>   
+        </div>
+        </section>
+        <section class="ubication p-b">
+    <div id="chart" class="bg-primary charts"></div>
+  <script src="components/graphic.js"></script>
+        </section>
+    <div class="options">
+        <div class="notgeneral">
+            <ul class="wrapper">
+                <li class="icon facebook">
+                    <span class="tooltip">inicio</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </li>
+                <li class="icon twitter">
+                    <span class="tooltip">detalles</span>
+                    <span><i class="fab fa-twitter"></i></span>
+                </li>
+                <li class="icon instagram">
+                    <span class="tooltip">grafica</span>
+                    <span><i class="fab fa-instagram"></i></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
