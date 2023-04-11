@@ -1,5 +1,7 @@
 // imports
-import Input from "./components/Imput.js";
+import input from "./components/imput.js";
+import config from "./storage/config.js";
 
 // invocador de funciones
-Input.redirect();
+input.redirect();
+config.createStorage();
