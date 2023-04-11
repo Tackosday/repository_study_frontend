@@ -1,5 +1,5 @@
 // imports
-import wsInput from "./storage/wsInput.js";
+import Input from "./components/Imput.js";
 
 // invocador de funciones
-wsInput.redirect();
+Input.redirect();

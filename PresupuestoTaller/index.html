@@ -17,7 +17,7 @@
     
         <section class="back text-center align-items-center justify-content-center d-flex fPart">
              <div>
-              <p>PRESUPUESTOS DIPONIBLES</p>
+              <p id="inicio">PRESUPUESTOS DIPONIBLES</p>
            <h1>$1.000.000</h1>
            <div class=" d-flex direction ">
                <div class="backIngSup info justify-content-between">
@@ -58,13 +58,13 @@
                 <i></i>
             </div>
             <div class="inputbox marG">
-                <input required="required" type="text" id="cantidad">
+                <input required="required" type="number" id="amount" class="no-spinners">
                 <span>CANTIDAD</span>
                 <i></i>
             </div>
         </div>
         <div>            
-            <button class=" marG">
+            <button class=" marG" id="bottomSave">
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
                     <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -82,27 +82,13 @@
         <section class="frac"> 
          <div class="block backIng padList">
              <h1 class="tit" >ingresos</h1>
-                 <table>
+                 <table id="ingresosTable">
                     <tr>
                         <td class="descrip">pago del campus</td>
                         <td class="val"> $10.000</td>
                         <td class="pors">10%</td>
                     </tr>
-                    <tr>
-                        <td class="descrip">pago del campus</td>
-                        <td class="val"> $10.000</td>
-                        <td class="pors">10%</td>
-                    </tr>
-                    <tr>
-                        <td class="descrip">pago del campus</td>
-                        <td class="val"> $10.000</td>
-                        <td class="pors">10%</td>
-                    </tr>
-                    <tr>
-                        <td class="descrip">pago del campus</td>
-                        <td class="val"> $10.000</td>
-                        <td class="pors">10%</td>
-                    </tr>
+                    
                  </table>   
          </div>
          </div>
@@ -110,37 +96,13 @@
 
         <div class="block backGas padList">
             <h1 class="tit">gastos</h1>
-            <table>
+            <table id="gastosTable">
                 <tr>
                     <td class="descrip">pago del transporte</td>
                     <td class="val"> $10.000</td>
                     <td class="pors">10%</td>
                 </tr>
-                <tr>
-                    <td class="descrip">pago del transporte</td>
-                    <td class="val"> $10.000</td>
-                    <td class="pors">10%</td>
-                </tr>
-                <tr>
-                    <td class="descrip">pago del transporte</td>
-                    <td class="val"> $10.000</td>
-                    <td class="pors">10%</td>
-                </tr>
-                <tr>
-                    <td class="descrip">pago del transporte</td>
-                    <td class="val"> $10.000</td>
-                    <td class="pors">10%</td>
-                </tr>
-                <tr>
-                    <td class="descrip">pago del transporte</td>
-                    <td class="val"> $10.000</td>
-                    <td class="pors">10%</td>
-                </tr>
-                <tr>
-                    <td class="descrip">pago del transporte</td>
-                    <td class="val"> $10.000</td>
-                    <td class="pors">10%</td>
-                </tr>
+                
              </table>   
         </div>
         </section>
