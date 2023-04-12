@@ -1,4 +1,14 @@
 export default{
+    // worker(){
+    //     /* workers */
+    //     const work = new Worker(`../storage/wsImput.js`,{type:"module"});
+    //     work.addEventListener("message",(e)=>{
+    //         let traduction = new DOMParser().parseFromString(e.data,"text/html");
+    //         document.querySelector("#tester").append(...traduction.body.children);
+    //         work.terminate();
+    //     })
+    // },
+
     redirect(){
         const ingresosData=[];
         const egresos=[];
@@ -21,10 +31,15 @@ export default{
                     ingresosData.push({dato1,dato2});
                     console.log(ingresosData);
                     /* local storage */
-                    let JSONingresos=JSON.stringify(ingresosData);
-                    localStorage.setItem("ingresos",JSONingresos)
-                    /* workers */
-
+                    // let JSONingresos=JSON.stringify(ingresosData);
+                    // localStorage.setItem("ingresos",JSONingresos)
+                    ingresosData.forEach((e)=>{
+                        blockTable=`
+                        <td class="descrip">
+                        `
+                    })
+                    
+                    
                  break;
 
                 case false:
