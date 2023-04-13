@@ -11,38 +11,65 @@ class lapiz{
         this.material = material;
         this.#marca = marca;
     }
-    getColor(){
-        return this.color;
-    }
-    getDimension(){
-        return this.dimension;
-    }
-    getborrador(){
-        return this.borrador;
+    
+    getMarca(){
+        return this.#marca;       
     }
     getMaterial(){
         return this.material;
+        
     }
 }
-    
+
+
+
+/* pre-establecimiento de datos */
 let obj = undefined;
 let color = document.querySelector(`[name="color"]`);
 let dimensiones = document.querySelector(`[name="dimension"]`);
-let borrador =document.querySelector(`[name="borrador"]`);
-// let material = document.querySelector(`[name="material"]`);
-let material = document.querySelector("tester");
-material.checked=true;
+let marca = document.querySelectorAll(`[name="marca"]`)
+let borrador =document.querySelectorAll(`[name="borrador"]`);
+let material = document.querySelectorAll(`[name="material"]`);
+
 addEventListener("DOMContentLoaded",(e)=>{
     obj=new lapiz({});
     color.value = obj.color;
     dimensiones.value = obj.dimension;
     
- })
+    marca.forEach((e)=>{
+        if(e.value=== obj.getMarca())
+        e.checked=true;
+    })
 
- 
- function showValue(newValue) {
-    document.getElementById("rangeValue").innerHTML = newValue;
- }
+    borrador.forEach( (e) => {
+        if(e.value === obj.borrador.toString()){
+            e.checked=true;
+        }
+    
+    material.forEach((e) => {
+        if(e.value === obj.getMaterial()){
+            e.checked=true;
+        }
+    })
 
- let myString = "true";
-let myBoolean = Boolean(myString);
+    });
+    })
+
+    /* lectura de imputs */
+    let lec = document.querySelector("#readBottom");
+    lec.addEventListener(`click`,() => {
+        /* color */
+        let remplaceColor = color.value;
+        /* dimencion */
+        document.querySelector("#data").insertAdjacentHTML("beforeend",`
+        
+        <tr>
+            <th>${remplaceColor}</th>
+            <th>Dimension</th>
+            <th>Marca</th>
+            <th>Borrador</th>
+            <th>Material</th>
+        </tr>
+        `);
+    })
+    
