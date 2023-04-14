@@ -57,19 +57,41 @@ addEventListener("DOMContentLoaded",(e)=>{
 
     /* lectura de imputs */
     let lec = document.querySelector("#readBottom");
-    lec.addEventListener(`click`,() => {
+    lec.addEventListener(`click`,(e) => {
+        e.preventDefault();
         /* color */
         let remplaceColor = color.value;
-        /* dimencion */
-        document.querySelector("#data").insertAdjacentHTML("beforeend",`
-        
+        /* dimension */
+        let remplaceDimention = dimensiones.value
+        /* marca */
+        let remplaceMarca ="";
+        marca.forEach((e)=>{
+            if(e.checked){
+                remplaceMarca = e.value;
+            };
+        })
+        /* borrador */
+        let remplaceBorrador ="";
+        borrador.forEach((e)=>{
+            if(e.checked){
+                e.value==="true" ?remplaceBorrador = "Tiene" : remplaceBorrador = "No tiene" ;
+            }
+        }) 
+
+        document.querySelector("#data").insertAdjacentHTML(`beforeend`,`
         <tr>
             <th>${remplaceColor}</th>
-            <th>Dimension</th>
-            <th>Marca</th>
-            <th>Borrador</th>
+            <th>${remplaceDimention}</th>
+            <th>${remplaceMarca}</th>
+            <th>${remplaceBorrador}</th>
             <th>Material</th>
         </tr>
-        `);
+        `)
     })
+
+    
+    let dim =dimensiones.value
+    document.querySelector(`beforeend`,`
+    <label>${dim} cm</label>
+    `)
     
