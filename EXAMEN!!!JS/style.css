@@ -1,0 +1,90 @@
+*{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    height: 99%;
+    margin: 0px;
+    background-image: linear-gradient(rgb(107, 61, 182),#a87fc9,#ffffff);
+}
+
+.natvar{
+    background-image: url(images/space.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+.letter{
+    color:white;
+    text-decoration: none;
+}
+
+.welcome{
+    margin-top: 200px;
+    color:black
+}
+
+.secText{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+.prins{
+    font-size: 40px;
+}
+
+.icons{
+    width:50px
+}
+
+h5{
+font-size: large;
+}
+
+h6{
+    text-align: center;
+    font-size: large;
+}
+
+.networks{
+    width: 250px;
+    margin-left:60%;
+
+}
+.card{
+    display: flex;
+}
+.red{
+    padding-top: 20px;
+    text-decoration: none;
+
+}
+.genNetwork{
+    display:flex;
+    width: 100%;
+}
+
+.backImage{
+    z-index: -1;
+    position:absolute;
+}
+.astronauta{
+    width: 500px;
+    z-index: -2;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}

@@ -1,0 +1,70 @@
+*{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    height: 99%;
+    margin: 0px;
+    background-image: linear-gradient(rgb(107, 61, 182),#a87fc9,#ffffff);
+}
+.natvar{
+    background-image: url(../../images/space.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+.letter{
+    color:white;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 30px;
+}
+.shop{
+    font-size:large ;
+    text-decoration: none;
+    color:white;
+}
+.info{
+    text-align: center;
+    margin:100px 0px;
+}
+
+.tit{
+    font-size: 20px;
+}
+
+.ima{
+    width: 95%;
+}
+
+.bottom{
+    background-color: #5d3081;
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
+}
+.cards{
+    background-color:#a27ac2;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid;
+}
+.secCards{
+display: flex;
+justify-content: space-between;
+margin: 0px 300px;
+}
