@@ -4,14 +4,14 @@
 }
 
 html{
-    height: 100%;
     overflow: scroll;
+
 }
 
 body{
-    height: 99%;
     margin: 0px;
     background-image: linear-gradient(rgb(107, 61, 182),#a87fc9,#ffffff);
+    background-repeat: none;
 }
 
 .natvar{
