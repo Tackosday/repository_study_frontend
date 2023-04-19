@@ -1,0 +1,48 @@
+/* fondo */
+html{
+    height: 100%;
+    
+}
+body{
+    background-image:url("resources/background.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* pokedex contain */
+.contain{
+    width: 850px;
+    height: 650px;
+    display:flex ;
+    align-items: end;
+}
+/* pokedex */
+.pokedex{
+    background-color: red;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px;
+    border:solid;
+}
+/* tapa */
+.tapa{
+    background-color: red;
+    height: 80%;
+    width: 50%;
+    margin-bottom:5px;
+    border-bottom-right-radius:30px ;
+    border:solid;
+}
+.topTapa{
+    position:absolute;
+    background-color: red;
+    border: solid;
+    width:200px;
+    height: 70px;
+}
