@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-image: url("../../resources/home.jpg");
+    background-size: cover;
+}
+/* letras de inicio */
+@font-face {
+    font-family: "starWars";
+    src: url("../../resources/fonts/Starjedi.ttf");
+}
+.welc{
+    color:rgba(255, 255, 255, 0.507);
+    font-size:150px;
+    font-family: starWars;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.spaceW{
+    color:rgba(255, 255, 255, 0.507);
+    font-size:90px;
+    font-family: starWars;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.words{
+    color:rgba(255, 255, 255, 0.507);
+    font-size:30px;
+    font-family: starWars;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

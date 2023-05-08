@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-image:  url("../../resources/fondo2.jpg");
+    background-size: cover;
+    backdrop-filter: blur(0px);
+}
+.general{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.base{
+    background-color: rgba(165, 165, 165, 0.37);
+    width: 80%;
+    border-radius: 10px;
+    border-top: solid;
+    border-top-color:white;
+    border-top-width:5px ;
+    border-bottom: solid;
+    border-bottom-color:white;
+    border-bottom-width:5px ;
+}
+.barra{
+    display: flex;
+}
+.tama{
+    width: 100%;
+
+}
+.head{
+    background-color: rgba(26, 26, 26, 0.726);
+}
+.celda{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+}

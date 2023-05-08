@@ -1,0 +1,19 @@
+{
+  "bot": {
+    "idp": 15,
+    "name": "juan andres rodolfo carrascal",
+    "edad": 18,
+    "tel": 3124532158,
+    "email": "juandaesca5@hotmail.com",
+    "direction": "cra 15d #***",
+    "born": "15-05-2004",
+    "identificacion": 15465216464,
+    "ingreso": "12-08-2023",
+    "team": "sputnik",
+    "trainer": "miguel",
+    "skill": "fronted",
+    "detalles": "con ganas de aprender"
+  }
+  
+
+}

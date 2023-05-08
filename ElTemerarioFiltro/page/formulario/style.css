@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-image: url(../../resources/fondo.png);
+    backdrop-filter: blur(2px);
+    background-size: cover;
+}
+.general{
+    height: 90%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 800px;
+    width: 500px;
+    background-color: rgba(109, 0, 0, 0.637);
+    border-radius: 10px;
+    border-top: solid;
+    border-top-color:white;
+    border-top-width:5px ;
+    border-bottom: solid;
+    border-bottom-color:white;
+    border-bottom-width:5px ;
+
+}
+
+  @font-face {
+    font-family: "starW";
+    src: url(../../resources/fonts/Starjedi.ttf);
+  }
+  .part{
+    font-family: starW;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .letter{
+    color:white;
+    margin: 0px;
+    margin-right: 15px;;
+  }
+  
+  .botpos{
+     display: flex;
+     justify-content: center;
+  }
