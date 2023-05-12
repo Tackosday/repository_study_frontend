@@ -1,19 +1,49 @@
 {
-  "bot": {
-    "idp": 15,
-    "name": "juan andres rodolfo carrascal",
-    "edad": 18,
-    "tel": 3124532158,
-    "email": "juandaesca5@hotmail.com",
-    "direction": "cra 15d #***",
-    "born": "15-05-2004",
-    "identificacion": 15465216464,
-    "ingreso": "12-08-2023",
-    "team": "sputnik",
-    "trainer": "miguel",
-    "skill": "fronted",
-    "detalles": "con ganas de aprender"
-  }
-  
-
+  "campers": [
+    {
+      "name": "Juan David Escalante",
+      "edad": "6514",
+      "tel": "3133513939",
+      "email": "cawscasc",
+      "direction": "carrera15D #104c-60",
+      "born": "2023-05-16",
+      "identificacion": "4165",
+      "ingreso": "2023-05-23",
+      "team": "02",
+      "trainer": "VELMER",
+      "skill": "acascas",
+      "detalles": "casc",
+      "id": 1
+    },
+    {
+      "name": "casca",
+      "edad": "515",
+      "tel": "3133513939",
+      "email": "nacastan4@hotmail.com",
+      "direction": "carrera15D #104c-60",
+      "born": "2023-05-23",
+      "identificacion": "6541632",
+      "ingreso": "2023-05-23",
+      "team": "03",
+      "trainer": "VELMER",
+      "skill": "acsca",
+      "detalles": "scascas",
+      "id": 2
+    },
+    {
+      "name": "Juan David Escalante",
+      "edad": "5375",
+      "tel": "3133513939",
+      "email": "sdcadca",
+      "direction": "carrera15D #104c-60",
+      "born": "2023-05-16",
+      "identificacion": "32314",
+      "ingreso": "2023-05-16",
+      "team": "02",
+      "trainer": "VELMER",
+      "skill": "cascas",
+      "detalles": "ascas",
+      "id": 3
+    }
+  ]
 }

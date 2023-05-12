@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 .form{
-    height: 800px;
+    height: 85%;
     width: 500px;
     background-color: rgba(109, 0, 0, 0.637);
     border-radius: 10px;
@@ -25,7 +25,7 @@ body{
     border-bottom: solid;
     border-bottom-color:white;
     border-bottom-width:5px ;
-
+    overflow: auto;
 }
 
   @font-face {
@@ -36,9 +36,9 @@ body{
     font-family: starW;
     color: white;
 
-    display: flex;
+    display:flex;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 10px;
   }
   
   .letter{
@@ -50,4 +50,17 @@ body{
   .botpos{
      display: flex;
      justify-content: center;
+     margin-bottom: 10px;
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+

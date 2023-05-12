@@ -1,9 +1,11 @@
+import { postCamper } from "./app.js";
 export default{
-Order(){
+    
+
+ Order(){
     let bot=document.querySelector("#save");
     bot.addEventListener("click",()=>{
         event.preventDefault();
-        let idp=document.querySelector("#id").value
         let name=document.querySelector("#name").value
         let edad=document.querySelector("#edad").value
         let tel=document.querySelector("#tel").value
@@ -13,13 +15,12 @@ Order(){
         let identi=document.querySelector("#NIde").value
         let ingreso=document.querySelector("#FIngre").value
         let team=document.querySelector("#team").value
-        let trainer=document.querySelector("#trai").value
+        let trainer=document.querySelector("#trainer").value
         let skill=document.querySelector("#skill").value
         let details=document.querySelector("#deta").value
 
         
         var data={
-            idp:idp,
             name:name,
             edad:edad,
             tel:tel,
@@ -34,11 +35,28 @@ Order(){
             detalles:details
         }
         console.log(data)
-             
+
+
+        
+        if (validate(data)){
+            alert("Todos los campos deben ser llenados")
+            return;
+           }
+         
+        postCamper(data);
+
+
+
+
+
+        function validate(obj){
+            return !Object.values(obj).every(element => element!=="")
+        }
+
         
     })
     
+}
+}
 
-}
-}
 

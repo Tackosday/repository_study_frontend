@@ -14,10 +14,6 @@
     <div class="general">
         <div class="form">
             <div class="part">
-                <p class="letter">id</p>
-                <input class="box" type="number" id="id">
-            </div>
-            <div class="part">
                 <p class="letter">nombre</p>
                 <input class="box" type="text" id="name">
             </div>
@@ -39,24 +35,37 @@
             </div>
             <div class="part">
                 <p class="letter">fecha de nacimiento</p>
-                <input class="box" type="date" id="fNaci">
+                <input class="box" type="date" id="fNaci" >
             </div>
             <div class="part">
                 <p class="letter">numero de identificacion</p>
                 <input class="box" type="number" id="NIde">
-            </div>
+  </div>
             <div class="part">
                 <p class="letter">fecha de ingreso</p>
-                <input class="box" type="date" id="FIngre">
+                <input class="box" type="date" id="FIngre" >
             </div>
-            <div class="part">
-                <p class="letter">id team</p>
-                <input class="box" type="number" id="team">          
+            <div style="display: flex;justify-content: center;">
+                <p class="part" style="margin: 0px;">team</p>
+                        <select name="team" id="team" class="box">
+                            <option value="..."></option>
+                            <option value="01"></option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                        </select>
+            </div><br>
+            
+            <div style="display: flex;justify-content: center;">
+            <p class="part" style="margin: 0px;">trainer</p>
+            <select name="trainer" id="trainer" class="box">
+                <option value="..."></option>
+                <option value="MIGEL">MIGEL</option>
+                <option value="VELMER">VELMER</option>
+                <option value="YOLBER">YOLBER</option>
+            </select>
             </div>
-            <div class="part">
-                <p class="letter">trainer asociado</p>
-                <input class="box" type="text" id="trai">
-            </div>
+
+
             <div class="part">
                 <p class="letter">skill</p>
                 <input class="box" type="text" id="skill">
@@ -66,7 +75,7 @@
                 <input class="box" type="text" id="deta">
             </div>
             <div class="botpos">
-                <button id="save">guardar</button>
+                <button id="save">guardar</button><br>
             </div>
 
         </div>
