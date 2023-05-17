@@ -59,6 +59,21 @@
       "skill": "bla bla",
       "detalles": "fevasdvadsv",
       "id": 5
+    },
+    {
+      "name": "knnk",
+      "edad": "98",
+      "tel": "989898",
+      "email": "Angie_c93@live.com",
+      "direction": "kjkkjj",
+      "born": "2023-05-23",
+      "identificacion": "0990990",
+      "ingreso": "2023-05-23",
+      "team": "02",
+      "trainer": "VELMER",
+      "skill": "mierda",
+      "detalles": "uuyy",
+      "id": 6
     }
   ]
 }
