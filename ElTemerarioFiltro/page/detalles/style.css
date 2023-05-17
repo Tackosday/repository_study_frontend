@@ -91,3 +91,24 @@ body {
 .text{
     width: 220px;
 }
+.DF{
+display: flex;
+align-items: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.boxy{
+    display: flex;
+}
+
+h1{
+    color:white;
+    margin: 0px 20px;
+}

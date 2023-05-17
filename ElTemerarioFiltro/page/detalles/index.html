@@ -13,7 +13,23 @@
 
 <body>
     <my-natvar></my-natvar>
-    <img src="../../resources/halcon-milenario.png" alt="filtro">
+    <div class="boxy">
+        <div class="DF">
+            <input type="number" style="margin: 0px 10px;" id="value">
+            <img src="../../resources/basura.png" alt="filtro" style="width:50px ;" id="delet">
+        </div>
+        <div class="DF">
+            <h1 style="color:white; margin: 0px 20px; "><b>FILTRO</b></h1>
+            <select name="manager" id="manager">
+                <option value="...">...</option>
+                <option value="trainer">trainer</option>
+                <option value="horario">horario</option>
+                <option value="ingreso">ingreso</option>
+            </select>
+            <div></div>
+            <button style="margin: 0px 10px;" id="check">check</button>
+        </div>
+    </div>
     <div class="margin" id="contain">    
     </div>
 </body> 
