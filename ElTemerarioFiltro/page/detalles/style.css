@@ -106,6 +106,7 @@ input[type=number] { -moz-appearance:textfield; }
 
 .boxy{
     display: flex;
+    justify-content: space-between;
 }
 
 h1{

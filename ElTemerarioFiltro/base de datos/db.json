@@ -16,21 +16,6 @@
       "id": 1
     },
     {
-      "name": "camila amaya rubio",
-      "edad": "18",
-      "tel": "3202115908",
-      "email": "nacastan4@hotmail.com",
-      "direction": "conjunto recidencial ni idea",
-      "born": "2005-06-02",
-      "identificacion": "1654864213",
-      "ingreso": "2023-02-14",
-      "team": "02",
-      "trainer": "MIGEL",
-      "skill": "fontend",
-      "detalles": "hermosa",
-      "id": 2
-    },
-    {
       "name": "javier jovanny escalante",
       "edad": "18",
       "tel": "3133513939",
@@ -59,6 +44,21 @@
       "skill": "cascas",
       "detalles": "ascasc",
       "id": 4
+    },
+    {
+      "name": "nazus",
+      "edad": "51684231",
+      "tel": "641651",
+      "email": "scascaxadvVSADV",
+      "direction": "AdDV<SXVAdxcads",
+      "born": "2023-05-22",
+      "identificacion": "16546231",
+      "ingreso": "2023-05-16",
+      "team": "01",
+      "trainer": "MIGEL",
+      "skill": "bla bla",
+      "detalles": "fevasdvadsv",
+      "id": 5
     }
   ]
 }
