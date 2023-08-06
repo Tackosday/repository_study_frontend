@@ -1,4 +1,4 @@
-<h1>INFORMACION</h1>
+<h1 align="center">INFORMACION</h1>
 
 <img align="center" src="https://github.com/JuanDavidEscalanteCastaneda-Campus/repository_study_frontend/blob/main/frontendi.png"></img>
 
