@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --light-blue: #CCDCF2;
+    --dark-blue: #5A7BB5;
+    --white: #F4F6FC;
+    --black: #000;
+    --most-dark-blue: #383976;
+    --gray: #e1dddd;
+}
+
+html,
+body {
+    margin: none;
+    padding: none;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+}
+
+.info-container {
+    height: 100%;
+    width: 75%;
+    background-color: var(--light-blue);
+}
+
+.navbar {
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-title {
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100%;
+    height: 16%;
+}
+
+.nav-title p {
+    margin: 0;
+    color: #6d6c6c;
+    width: 100%;
+}
+
+.navbar h5 {
+    font-weight: 600;
+    font-size: 2;
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 84%;
+    padding-left: 20px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    margin: 8px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.15rem;
+}
+
+.info {
+    background: var(--white);
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.paper {
+    margin: 30px 20px;
+    padding: 30px 20px;
+    height: 93%;
+    background-color: var(--white);
+}
+
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    justify-content: center;
+}
+
+.input-group input {
+    background: #F5F5F5;
+    box-shadow: 0px -1px 32px 0px rgba(0, 0, 0, 0.08) inset;
+    height: 2.3rem;
+    flex-shrink: 0;
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
+
+.input-group label {
+    color: #000;
+    font-family:'arial';
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 1.2rem;
+}
+
+.contain{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.save{
+    
+    background-color: var(--most-dark-blue);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+
+.order{
+    display: flex;
+    width: 100%;
+    height: 93%;
+}
+.col{
+    width: 45%;
+    height: 100%;
+    margin: 0px 10px
+}
+
+/* .first{
+    background-color: #c4c4c4;
+}
+
+.secon{
+    background-color: #383976;
+} */
